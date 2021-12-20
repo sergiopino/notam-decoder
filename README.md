@@ -17,4 +17,36 @@ You can read about notice to airmen in the [NOTAM article on Wikipedia](https://
 ```javascript
 // get decoded notam as json Object
 var notam = notamDecoder.decode(input);
+```
+
+
+## Run the example
+
+Install http-server
+```bash
+npm install http-server -g
+```
+
+Now you can run the demo
+
+```bash
+$ http-server
+Starting up http-server, serving ./
+
+http-server version: 14.0.0
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:8080
+  http://192.168.1.36:8080
+Hit CTRL-C to stop the server
 
